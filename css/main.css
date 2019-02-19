@@ -1,0 +1,12 @@
+body {
+    background-color: black
+}
+
+.ninerRed {
+    background-color: rgb(170, 0, 0);
+}
+
+img.card-img {
+    background: black no-repeat fixed bottom left;
+	background-size: cover;
+}

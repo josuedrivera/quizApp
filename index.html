@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Faithful Quiz</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- link to FontAwesome for icons and such -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+	<!-- link to css reset -->
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<!-- link to animate css file -->
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- link to bootstrap CDN files -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- link to my css stylesheet; KEEP AT BOTTOM -- STRONGEST IN CASCADE -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+<!-- LEVIS STADIUM BANNER	 -->
+	<img src="img/banner.jpg" class="img-fluid" alt="crowd looks onto Levi's Stadium's field">
+
+<!-- NAVIGATION BAR	 -->
+	<nav class="navbar navbar-expand-sm navbar-light ninerRed sticky-top">
+
+	<!-- NAVBAR BRAND -->
+		<div class="container-fluid">
+			<a href="#" class="navbar-brand text-white title">
+				<img src="img/icon.png" width="50" height="50" class="d-inline-block" alt="">
+				FAITHFUL QUIZ</a>
+		</div>
+
+	<!-- INTERACTIVE COLLAPSE MENU BUTTON -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+		</button>
+
+	<!-- NAVBAR MENU -->
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">LINK</a>
+				</li>
+			<!-- DROPDOWN MENU	 -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				PROJECTS
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	
+	
+	<!-- <div class="card text-white text-center bg-transparent">
+		<img src="..." class="card-img" alt="">
+		<div class="card-img-overlay">
+			<h1 class="card-title ninerRed">ARE YOU A TRUE FAITHFUL?</h1>
+			<p class="card-text ninerRed">Come take our quiz to determine if you're barely hopping on the bandwagon, or if you are a true seasoned <span>faithful</span></p>
+			<p class="card-text ninerRed">GO NINERS!!!!!</p>
+		</div>
+	</div> -->
+
+<div class="container bg-dark d-flex align-items-center flex-column">
+	<h1 class="title text-white">FAITHFUL QUIZ</h1>
+		<div class="row">
+			<form action="form-group ">
+		<!-- QUESTION 1		 -->
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>	
+		<!-- QUESTION 2 -->
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+		<!-- QUESTION 3 -->		
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+		<!-- QUESTION 4 -->		
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+				<div class="form-group">
+					<div id="question0"></div>
+					<input type="text" id="answer0" class="form-control">
+				</div>
+			</form>
+		</div>
+</div>
+
+
+
+<!-- SCRIPTS -->
+	<!-- jQuery slim 3.3.1 script -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<!-- jQuery Popper scritp -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<!-- Bootstrap script -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<!-- Vue JS CDN script -->
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<!-- Vue Router CDN script -->
+		<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+	<!-- custom JS script -->
+		<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
